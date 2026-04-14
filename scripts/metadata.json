@@ -1,0 +1,12 @@
+{
+  "apexClasses": [
+    "DiscountApprovalController"
+  ],
+  "customFields": [
+    "Opportunity.Discount__c",
+    "Opportunity.Approval_Status__c"
+  ],
+  "flows": [
+    "Discount_Approval_Flow"
+  ]
+}

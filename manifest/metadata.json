@@ -1,0 +1,41 @@
+{
+  "ApexClass": [
+    {
+      "name": "DeveloperEditionUtils",
+      "lastModified": "2026-04-10T09:24:05.000+0000",
+      "modifiedBy": "OrgFarm EPIC"
+    },
+    {
+      "name": "DeveloperEditionUtilsTest",
+      "lastModified": "2026-04-10T09:24:05.000+0000",
+      "modifiedBy": "OrgFarm EPIC"
+    },
+    {
+      "name": "PostInstallScript",
+      "lastModified": "2026-04-10T09:24:05.000+0000",
+      "modifiedBy": "OrgFarm EPIC"
+    },
+    {
+      "name": "PostInstallScriptTest",
+      "lastModified": "2026-04-10T09:24:05.000+0000",
+      "modifiedBy": "OrgFarm EPIC"
+    },
+    {
+      "name": "Motorcycle",
+      "lastModified": "2026-04-13T14:15:21.000+0000",
+      "modifiedBy": "Kaveri Chappidi"
+    },
+    {
+      "name": "EmailTemplateService",
+      "lastModified": "2026-04-14T06:05:14.000+0000",
+      "modifiedBy": "Kaveri Chappidi"
+    },
+    {
+      "name": "EmailTemplateServiceTest",
+      "lastModified": "2026-04-14T06:06:08.000+0000",
+      "modifiedBy": "Kaveri Chappidi"
+    }
+  ],
+  "CustomObject": [],
+  "ValidationRule": []
+}

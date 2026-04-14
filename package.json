@@ -1,0 +1,27 @@
+{
+  "name": "project-to-production-ai",
+  "version": "1.0.0",
+  "description": "project-to-production-ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaveri-ch/project-to-production-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kaveri-ch/project-to-production-ai/issues"
+  },
+  "homepage": "https://github.com/kaveri-ch/project-to-production-ai#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsforce": "^3.10.14",
+    "openai": "^6.34.0"
+  }
+}

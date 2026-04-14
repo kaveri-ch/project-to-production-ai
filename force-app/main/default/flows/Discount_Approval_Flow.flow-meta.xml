@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <label>Discount Approval Flow</label>
+    <processType>Flow</processType>
+    <status>Active</status>
+
+    <start>
+        <object>Opportunity</object>
+        <triggerType>RecordAfterSave</triggerType>
+        <filters>
+            <field>Discount__c</field>
+            <operator>GreaterThan</operator>
+            <value>20</value>
+        </filters>
+    </start>
+
+    <recordUpdates>
+        <name>Update_Approval_Flags</name>
+        <label>Update Approval Fields</label>
+        <inputAssignments>
+            <field>Approval_Required__c</field>
+            <value>true</value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Approval_Status__c</field>
+            <value>Pending</value>
+        </inputAssignments>
+    </recordUpdates>
+</Flow> 
