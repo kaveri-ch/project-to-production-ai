@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  <types>
-    <members>DeveloperEditionUtils</members>
-    <members>DeveloperEditionUtilsTest</members>
-    <members>PostInstallScript</members>
-    <members>PostInstallScriptTest</members>
-    <members>Motorcycle</members>
-    <members>EmailTemplateService</members>
-    <members>EmailTemplateServiceTest</members>
-    <name>ApexClass</name>
-  </types>
-  <version>59.0</version>
+<types>
+<members>EmailTemplateServiceTest</members>
+<members>EmailTemplateService</members>
+<members>Motorcycle</members>
+<name>ApexClass</name>
+</types>
+<types>
+<members>Analytics Cloud Integration User</members>
+<members>Einstein Agent User</members>
+<members>Cross Org Data Proxy User</members>
+<members>Read Only</members>
+<members>Salesforce API Only System Integrations</members>
+<members>Identity User</members>
+<members>Analytics Cloud Security User</members>
+<members>Minimum Access - API Only Integrations</members>
+<members>Partner App Subscription User</members>
+<members>Minimum Access - Salesforce</members>
+<members>Anypoint Integration</members>
+<name>Profile</name>
+</types>
+<version>59.0</version>
 </Package>

@@ -1,94 +1,126 @@
-const { execSync } = require("child_process");
-const jsforce = require("jsforce");
+const { exec } = require("child_process");
 const fs = require("fs");
+const ORG = "Dev"; // 👈 your org alias
 
-async function run() {
-  try {
-    console.log("🚀 Script started...");
+const METADATA_CONFIG = {
+  ApexClass: {
+    soql: "SELECT Name, LastModifiedDate, LastModifiedBy.Name FROM ApexClass"
+  },
+  ApexTrigger: {
+    soql: "SELECT Name, LastModifiedDate, LastModifiedBy.Name FROM ApexTrigger"
+  },
+  Flow: {
+    soql: "SELECT Label, LastModifiedDate, LastModifiedBy FROM FlowDefinitionView",
+  },
+  CustomObject: {
+    soql: "SELECT QualifiedApiName, LastModifiedDate, LastModifiedBy.Name FROM EntityDefinition WHERE IsCustomizable = true"
+  },
+  Layout: {
+    soql: "SELECT Name, LastModifiedDate, LastModifiedBy.Name FROM Layout",
+    tooling: true
+  },
+  PermissionSet: {
+    soql: "SELECT Name, LastModifiedDate, LastModifiedBy.Name FROM PermissionSet"
+  },
+  Profile: {
+    soql: "SELECT Name, LastModifiedDate, LastModifiedBy.Name FROM Profile"
+  },
+  LightningComponentBundle: {
+    soql: "SELECT DeveloperName, LastModifiedDate, LastModifiedBy.Name FROM LightningComponentBundle",
+    tooling: true
+  }
+};
 
-    const orgInfo = JSON.parse(
-      execSync("sf org display --target-org Dev --json", { encoding: "utf-8" })
-    );
-
-    const conn = new jsforce.Connection({
-      instanceUrl: orgInfo.result.instanceUrl,
-      accessToken: orgInfo.result.accessToken,
-      version: "59.0"
-    });
-
-    console.log("✅ Connected using existing session");
-
-    // 🔥 Apex
-    const apex = await conn.tooling.query(`
-      SELECT Name, LastModifiedDate, LastModifiedBy.Name
-      FROM ApexClass
-      WHERE LastModifiedDate = LAST_N_DAYS:180
-    `);
-
-    // 🔥 Objects
-    const objects = await conn.tooling.query(`
-      SELECT QualifiedApiName, LastModifiedDate, LastModifiedBy.Name
-      FROM EntityDefinition
-      WHERE LastModifiedDate = LAST_N_DAYS:180
-      AND NamespacePrefix = null
-    `);
-
-    // 🔥 Validation Rules
-    const validations = await conn.tooling.query(`
-      SELECT ValidationName, LastModifiedDate, LastModifiedBy.Name
-      FROM ValidationRule
-      WHERE LastModifiedDate = LAST_N_DAYS:180
-    `);
-
-    const metadata = {
-      ApexClass: apex.records.map(r => ({
-        name: r.Name,
-        lastModified: r.LastModifiedDate,
-        modifiedBy: r.LastModifiedBy?.Name || "N/A"
-      })),
-
-      CustomObject: objects.records.map(r => ({
-        name: r.QualifiedApiName,
-        lastModified: r.LastModifiedDate,
-        modifiedBy: r.LastModifiedBy?.Name || "N/A"
-      })),
-
-      ValidationRule: validations.records.map(r => ({
-        name: r.ValidationName,
-        lastModified: r.LastModifiedDate,
-        modifiedBy: r.LastModifiedBy?.Name || "N/A"
-      }))
-    };
-
-    console.log("📦 Metadata:", metadata);
-
-    // 🔥 Generate package.xml
-    let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-    xml += `<Package xmlns="http://soap.sforce.com/2006/04/metadata">\n`;
-
-    Object.keys(metadata).forEach(type => {
-      if (metadata[type].length > 0) {
-        xml += `  <types>\n`;
-        metadata[type].forEach(item => {
-          xml += `    <members>${item.name}</members>\n`;
-        });
-        xml += `    <name>${type}</name>\n`;
-        xml += `  </types>\n`;
+// 🔥 Helper to run commands async
+function runCommand(cmd) {
+  return new Promise((resolve, reject) => {
+    exec(cmd, { maxBuffer: 1024 * 5000 }, (err, stdout, stderr) => {
+      if (err) {
+        console.error(`❌ Command failed:\n${cmd}`);
+        console.error(stderr);
+        return reject(err);
       }
+      resolve(stdout);
     });
+  });
+}
 
-    xml += `  <version>59.0</version>\n</Package>`;
+async function fetchType(type, config) {
+  try {
+  // Run CLI + SOQL in parallel
+    console.log(`👉 ${type}`);
 
-    if (!fs.existsSync("manifest")) fs.mkdirSync("manifest");
+    const cliCmd = `sf org list metadata --metadata-type ${type} --target-org ${ORG} --json`;
 
-    fs.writeFileSync("manifest/package.xml", xml);
-    fs.writeFileSync("manifest/metadata.json", JSON.stringify(metadata, null, 2));
+    const soqlCmd = config.tooling
+      ? `sf data query -t -q "${config.soql}" --target-org ${ORG} --json`
+      : `sf data query -q "${config.soql}" --target-org ${ORG} --json`;
 
-    console.log("✅ package.xml generated successfully!");
+    const [cliOutput, soqlOutput] = await Promise.all([
+      runCommand(cliCmd),
+      runCommand(soqlCmd)
+    ]);
+
+    const cliData = JSON.parse(cliOutput).result || [];
+    const soqlRecords = JSON.parse(soqlOutput).result?.records || [];
+	
+	// Build SOQL map
+    const soqlMap = {};
+
+    soqlRecords.forEach(r => {
+      const name = r.Name || r.DeveloperName || r.QualifiedApiName;
+
+      soqlMap[name] = {
+        lastModified: r.LastModifiedDate,
+        modifiedBy: r.LastModifiedBy?.Name || "Unknown"
+      };
+    });
+    // Merge
+    return cliData.map(c => ({
+      name: c.fullName,
+      type,
+      lastModified: soqlMap[c.fullName]?.lastModified || null,
+      modifiedBy: soqlMap[c.fullName]?.modifiedBy || "Unknown"
+    }));
 
   } catch (err) {
-    console.error("❌ ERROR:", err.message);
+    console.error(`❌ Failed ${type}`);
+    return [];
   }
+}
+
+async function run() {
+  console.log("🚀 Parallel metadata fetch started...");
+
+  const promises = Object.entries(METADATA_CONFIG).map(([type, config]) =>
+    fetchType(type, config)
+  );
+
+  const results = await Promise.all(promises);
+
+  const finalList = results.flat();
+
+  // Deduplicate
+  const unique = {};
+  finalList.forEach(m => {
+    unique[`${m.type}-${m.name}`] = m;
+  });
+
+  const cleaned = Object.values(unique);
+
+  // Sort
+  cleaned.sort((a, b) =>
+    new Date(b.lastModified || 0) - new Date(a.lastModified || 0)
+  );
+
+  if (!fs.existsSync("manifest")) fs.mkdirSync("manifest");
+
+  fs.writeFileSync(
+    "manifest/metadata.json",
+    JSON.stringify(cleaned, null, 2)
+  );
+
+  console.log("✅ metadata.json generated");
 }
 
 run();

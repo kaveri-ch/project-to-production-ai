@@ -71,18 +71,131 @@ app.get("/download-package", (req, res) => {
 /**
  * FETCH METADATA DETAILS
  */
-app.get("/get-metadata", (req, res) => {
+const { exec } = require("child_process");
+
+app.get("/metadata-grid", async (req, res) => {
   try {
-    execSync("node agents/realPackagingAgent.js");
+    console.log("📊 Metadata request received");
+
+    await new Promise((resolve, reject) => {
+      exec("node agents/realPackagingAgent.js", (err, stdout, stderr) => {
+        if (err) {
+          console.error("❌ Agent error:", err);
+          return reject(err);
+        }
+        console.log(stdout);
+        resolve();
+      });
+    });
 
     const data = fs.readFileSync("manifest/metadata.json", "utf-8");
 
     res.json(JSON.parse(data));
+
   } catch (err) {
-    res.json({ error: err.message });
+    console.error("❌ API error:", err);
+    res.status(500).json({ error: err.message });
   }
 });
 
+
+app.post("/generate-selected", express.json(), (req, res) => {
+  try {
+    const selected = req.body;
+
+    let xml = `<?xml version="1.0"?>\n<Package xmlns="http://soap.sforce.com/2006/04/metadata">\n`;
+
+    const grouped = {};
+
+    selected.forEach(item => {
+      if (!grouped[item.type]) grouped[item.type] = [];
+      grouped[item.type].push(item.name);
+    });
+
+    Object.keys(grouped).forEach(type => {
+      xml += `<types>\n`;
+      grouped[type].forEach(n => {
+        xml += `<members>${n}</members>\n`;
+      });
+      xml += `<name>${type}</name>\n</types>\n`;
+    });
+
+    xml += `<version>59.0</version>\n</Package>`;
+
+    fs.writeFileSync("manifest/package.xml", xml);
+
+    res.download("manifest/package.xml");
+
+  } catch (err) {
+    res.send(err.message);
+  }
+});
+
+app.get("/generate-last-5-days", async (req, res) => {
+  try {
+    const data = JSON.parse(
+      fs.readFileSync("manifest/metadata.json", "utf-8")
+    );
+
+    const now = new Date();
+
+    const filtered = data.filter(item => {
+      if (!item.lastModified) return false;
+
+      const diff =
+        (now - new Date(item.lastModified)) / (1000 * 60 * 60 * 24);
+
+      return diff <= 5;
+    });
+
+    // Build package.xml
+    let xml = `<?xml version="1.0"?>\n<Package xmlns="http://soap.sforce.com/2006/04/metadata">\n`;
+
+    const grouped = {};
+
+    filtered.forEach(item => {
+      if (!grouped[item.type]) grouped[item.type] = [];
+      grouped[item.type].push(item.name);
+    });
+
+    Object.keys(grouped).forEach(type => {
+      xml += `<types>\n`;
+      grouped[type].forEach(n => {
+        xml += `<members>${n}</members>\n`;
+      });
+      xml += `<name>${type}</name>\n</types>\n`;
+    });
+
+    xml += `<version>59.0</version>\n</Package>`;
+
+    fs.writeFileSync("manifest/package.xml", xml);
+
+    res.download("manifest/package.xml");
+
+  } catch (err) {
+    res.send("❌ Error generating package");
+  }
+});
+
+app.get("/org-info", (req, res) => {
+  try {
+    const output = execSync("sf org display --target-org Dev --json", { encoding: "utf-8" });
+
+    const data = JSON.parse(output);
+
+    const orgName =
+      data.result.alias ||
+      data.result.username ||
+      data.result.orgId ||
+      "Unknown Org";
+
+    res.json({ orgName });
+
+  } catch (err) {
+    console.error(err.message);
+    res.json({ orgName: "Not Connected" });
+  }
+});
 
 /**
  * RISK AGENT

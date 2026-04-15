@@ -17,11 +17,19 @@ body {
   width: 280px;
   background: #0b5cab;
   color: white;
-  padding: 20px;
+  position: fixed;
+  top: 60px;       /* below header */
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar h2 {
-  text-align: center;
+  margin: 0;
+  padding: 15px 15px 10px 15px;
+  font-size: 18px;
+  text-align: left;   /* 👈 align left */
 }
 
 .sidebar button {
@@ -35,6 +43,9 @@ body {
   cursor: pointer;
 }
 
+.sidebar-content {
+  padding: 10px 15px;
+}
 .sidebar button:hover {
   background: #014486;
 }
@@ -42,8 +53,14 @@ body {
 /* MAIN CONTENT */
 .main {
   flex: 1;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: flex-start;   /* top align */
+  margin-left: 280px;  /* push content right */
+  margin-top: 60px;    /* below header */
   padding: 20px;
   background: #f4f6f9;
+  margin-top: 60px; /* push content below header */
 }
 
   #output {
@@ -52,7 +69,8 @@ body {
     background: white;
     border-radius: 10px;
     min-height: 300px;
-    max-width: 1000px;
+    width: 90%;
+    max-width: 1100px;
     text-align: left;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   }
@@ -134,12 +152,86 @@ body {
   font-size: 19px;
   white-space: nowrap;
   margin-bottom: 5px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 .sidebar p {
   text-align: center;
   color: #d0e6ff;
 }
+
+th input, th select {
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 12px;
+}
+
+th {
+  user-select: none;
+}
+
+th:hover {
+  background: #eef3f8;
+}
+
+#orgHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #0b5cab;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* left + center */
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+/* LEFT TITLE */
+.header-left {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* CENTER STATUS */
+.header-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+}
+
+/* Green blinking dot */
+.status-dot {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  display: inline-block;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(0,255,0, 0.7); }
+  70% { box-shadow: 0 0 0 8px rgba(0,255,0, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0,255,0, 0); }
+}
+
+/* Red dot for error */
+.status-dot.error {
+  background-color: red;
+}
+
+/* Blinking animation */
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
 /* TEXT AREA */
 textarea {
   width: 100%;
@@ -153,27 +245,33 @@ textarea {
 
 <!-- LEFT MENU -->
 <div class="sidebar">
-  <h2>
-  🚀 <span style="font-weight:bold;">Project-to-Production</span> AI
-  </h2>
 
-  <button onclick="run('run-package')">📦 Generate package.xml</button>
-  <button onclick="downloadFile()">⬇️ Download package.xml</button>
-  <button onclick="showMetadata()">📊 Metadata Details</button>
+  <div class="sidebar-content">
+    <button onclick="run('run-package')">📦 Generate package.xml</button>
+    <button onclick="downloadFile()">⬇️ Download package.xml</button>
+    <button onclick="showMetadata()">📊 Metadata Details</button>
 
-  <hr>
+    <hr>
 
-  <textarea id="riskInput" placeholder="Enter metadata:
+    <textarea id="riskInput" placeholder="Enter metadata:
 AccountController.cls
 FlowName.flow-meta.xml"></textarea>
 
-  <button onclick="analyzeRisk()">⚠️ Analyze Risk</button>
-
-  <hr>
+    <button onclick="analyzeRisk()">⚠️ Risk Analysis</button>
   </div>
+</div>
 
 <!-- MAIN OUTPUT -->
 <div class="main">
+    <div id="orgHeader">
+  <div class="header-left">
+    🚀 Project-to-Production AI
+  </div>
+
+  <div class="header-center" id="orgStatus">
+    ⏳ Connecting...
+  </div>
+</div>
   <div id="output">Welcome 👋<br>Select an action from the left.</div>
 </div>
 
@@ -193,59 +291,139 @@ function downloadFile() {
 }
 
 function showMetadata() {
-  document.getElementById("output").innerHTML = "⏳ Loading metadata...";
+  document.getElementById("output").innerHTML =
+    "<h3>⏳ Fetching metadata... please wait (~30–60 sec)</h3>";
 
-  fetch('/get-metadata')
+  fetch('/metadata-grid')
     .then(res => res.json())
     .then(data => {
 
+      if (data.error) {
+        document.getElementById("output").innerHTML =
+          "❌ Error: " + data.error;
+        return;
+      }
+
       const now = new Date();
 
-      let html = `<h2>📊 Metadata Details</h2>`;
+    let html = `
+    <h2>📊 Metadata Details</h2>
 
-      Object.keys(data).forEach(type => {
+        <div style="margin-bottom:10px;">
+        <button onclick="clearFilters()"> Clear Filters</button>
+        </div>
 
-        if (!data[type] || data[type].length === 0) return;
+    <table border="1" cellpadding="5" id="metaTable">
+        <tr>
+        <th>Select</th>
+        <th>
+            Name<br>
+            <input type="text" id="nameFilter" placeholder="Search..."
+            onkeyup="applyFilters()" style="width:90%">
+        </th>
+        <th>
+            Type<br>
+            <select id="typeFilter" onchange="applyFilters()" style="width:100%">
+            <option value="">All</option>
+            <option value="ApexClass">ApexClass</option>
+            <option value="Profile">Profile</option>
+            <option value="Flow">Flow</option>
+            <option value="CustomObject">CustomObject</option>
+            <option value="Layout">Layout</option>
+            <option value="PermissionSet">PermissionSet</option>
+            <option value="ApexTrigger">ApexTrigger</option>
+            <option value="LightningComponentBundle">LightningComponentBundle</option>
+            </select>
+        </th>
+        <th>
+            Date<br>
+            <input type="date" id="dateFilter" onchange="applyFilters()" style="width:95%">
+        </th>
+        <th>Modified By</th>
+        </tr>
+       `;
 
-        html += `<h3>${type}</h3>`;
-
+      data.forEach(item => {
         html += `
-          <table style="width:100%; border-collapse:collapse; margin-bottom:20px;">
-            <tr style="background:#0176d3;color:white;">
-              <th style="padding:10px;">Name</th>
-              <th style="padding:10px;">Modified By</th>
-              <th style="padding:10px;">Last Modified</th>
-            </tr>
+          <tr>
+            <td><input type="checkbox" value='${JSON.stringify(item)}'></td>
+            <td>${item.name}</td>
+            <td>${item.type}</td>
+            <td>${item.lastModified ? new Date(item.lastModified).toLocaleString() : '-'}</td>
+            <td>${item.modifiedBy}</td>
+          </tr>
         `;
-
-        data[type].forEach(item => {
-
-          const modifiedDate = new Date(item.lastModified);
-          const diffDays = (now - modifiedDate) / (1000 * 60 * 60 * 24);
-
-          const isRecent = diffDays <= 7;
-
-          html += `
-            <tr style="background:${isRecent ? '#d4edda' : 'white'};">
-              <td style="padding:8px;">${item.name}</td>
-              <td style="padding:8px;">${item.modifiedBy}</td>
-              <td style="padding:8px;">${modifiedDate.toLocaleString()}</td>
-            </tr>
-          `;
-        });
-
-        html += `</table>`;
       });
 
-      html += `<p style="color:green;font-weight:bold;">
-        🟢 Highlighted rows = Modified in last 7 days
-      </p>`;
+      html += `
+        </table>
+
+        <div style="
+        position: sticky;
+        bottom: 0;
+        background: white;
+        padding: 15px;
+        margin-top: 20px;
+        border-top: 2px solid #ccc;
+        display: flex;
+        gap: 10px;
+        ">
+
+        <button onclick="generateSelected()">📦 Generate Selected Package</button>
+
+        <button onclick="generateLast5Days()">⚡ Generate Last 5 Days Package</button>
+
+        </div>
+        `;
 
       document.getElementById("output").innerHTML = html;
     })
     .catch(err => {
-      document.getElementById("output").innerHTML = "❌ Error loading metadata";
+      document.getElementById("output").innerHTML =
+        "❌ Failed to load metadata";
+      console.error(err);
     });
+}
+
+function generateSelected() {
+  const selected = [];
+
+  document.querySelectorAll("input[type=checkbox]:checked").forEach(cb => {
+    selected.push(JSON.parse(cb.value));
+  });
+
+  // ✅ Validation
+  if (!selected.length) {
+    alert("⚠️ Please select at least one item");
+    return;
+  }
+
+
+  // API call
+  fetch('/generate-selected', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(selected)
+  })
+    .then(res => res.blob())
+    .then(blob => {
+      const url = window.URL.createObjectURL(blob);
+
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = "package.xml";
+      a.click();
+
+      window.URL.revokeObjectURL(url);
+    })
+    .catch(() => {
+      document.getElementById("output").innerHTML =
+        "❌ Failed to generate package";
+    });
+}
+
+function generateLast5Days() {
+  window.open('/generate-last-5-days');
 }
 
 function analyzeRisk() {
@@ -311,7 +489,63 @@ function processMessage(msg) {
     addMessage("bot", data.reply);
   });
 }
+//Filter condition for Meta data grid 
+function applyFilters() {
+  const name = document.getElementById("nameFilter").value.toLowerCase();
+  const type = document.getElementById("typeFilter").value;
+  const date = document.getElementById("dateFilter").value;
 
+  const rows = document.querySelectorAll("#metaTable tr");
+
+  rows.forEach((row, index) => {
+    if (index === 0) return; // skip header
+
+    const cols = row.children;
+    if (!cols || cols.length < 5) return;
+
+    const rowName = cols[1].innerText.toLowerCase();
+    const rowType = cols[2].innerText;
+    const rowDate = cols[3].innerText;
+
+    let show = true;
+
+    if (name && !rowName.includes(name)) show = false;
+    if (type && rowType !== type) show = false;
+
+    if (date) {
+      const formatted = new Date(rowDate).toISOString().slice(0,10);
+      if (formatted !== date) show = false;
+    }
+
+    row.style.display = show ? "" : "none";
+  });
+}
+
+//clearFilters condition for Meta data grid 
+function clearFilters() {
+  document.getElementById("nameFilter").value = "";
+  document.getElementById("typeFilter").value = "";
+  document.getElementById("dateFilter").value = "";
+
+  applyFilters(); // reapply (shows all)
+}
+//loadOrgInfo for tope header
+function loadOrgInfo() {
+  fetch('/org-info')
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("orgStatus").innerHTML =
+        `<span class="status-dot"></span> Connected to: ${data.orgName}`;
+    })
+    .catch(() => {
+      document.getElementById("orgStatus").innerHTML =
+        `<span class="status-dot" style="background:red"></span> Not Connected`;
+    });
+}
+
+window.onload = function () {
+  loadOrgInfo();
+};
 
 </script>
 
