@@ -18,61 +18,7 @@
     "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "Analytics Cloud Integration User",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
-    "name": "Einstein Agent User",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
-    "name": "Cross Org Data Proxy User",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
-    "name": "Read Only",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
     "name": "Salesforce API Only System Integrations",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
-    "name": "Identity User",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
-    "name": "Analytics Cloud Security User",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
-    "name": "Minimum Access - API Only Integrations",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
-    "name": "Partner App Subscription User",
-    "type": "Profile",
-    "lastModified": "2026-04-13T11:15:04.000+0000",
-    "modifiedBy": "Kaveri Chappidi"
-  },
-  {
-    "name": "Minimum Access - Salesforce",
     "type": "Profile",
     "lastModified": "2026-04-13T11:15:04.000+0000",
     "modifiedBy": "Kaveri Chappidi"
@@ -84,52 +30,58 @@
     "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "Chatter Free User",
+    "name": "Cross Org Data Proxy User",
     "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "Customer Community Plus User",
+    "name": "Analytics Cloud Security User",
     "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "Partner Community Login User",
+    "name": "Analytics Cloud Integration User",
     "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "Chatter Moderator User",
+    "name": "Partner App Subscription User",
     "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "External Apps Login User",
+    "name": "Minimum Access - API Only Integrations",
     "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "Customer Community Plus Login User",
+    "name": "Read Only",
     "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "Partner Community User",
+    "name": "Minimum Access - Salesforce",
     "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
   },
   {
-    "name": "External Identity User",
+    "name": "Einstein Agent User",
     "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
+  },
+  {
+    "name": "Identity User",
+    "type": "Profile",
+    "lastModified": "2026-04-13T11:15:04.000+0000",
+    "modifiedBy": "Kaveri Chappidi"
   },
   {
     "name": "Authenticated Website",
@@ -144,13 +96,37 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "B2B Reordering Portal Buyer Profile",
+    "name": "Customer Community Login User",
     "type": "Profile",
     "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Automated Process"
+    "modifiedBy": "Unknown"
   },
   {
     "name": "High Volume Customer Portal User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Customer Community Plus Login User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Chatter Free User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Customer Community Plus User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Partner Community User",
     "type": "Profile",
     "lastModified": "2026-04-10T09:10:48.000+0000",
     "modifiedBy": "Unknown"
@@ -162,25 +138,13 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Customer Portal Manager Standard",
-    "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Customer Community Login User",
-    "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Customer Community User",
-    "type": "Profile",
-    "lastModified": "2026-04-10T09:10:48.000+0000",
-    "modifiedBy": "Unknown"
-  },
-  {
     "name": "Silver Partner User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Chatter Moderator User",
     "type": "Profile",
     "lastModified": "2026-04-10T09:10:48.000+0000",
     "modifiedBy": "Unknown"
@@ -192,16 +156,46 @@
     "modifiedBy": "Unknown"
   },
   {
+    "name": "Customer Portal Manager Standard",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Partner Community Login User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "B2B Reordering Portal Buyer Profile",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Automated Process"
+  },
+  {
+    "name": "External Apps Login User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Customer Community User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "External Identity User",
+    "type": "Profile",
+    "lastModified": "2026-04-10T09:10:48.000+0000",
+    "modifiedBy": "Unknown"
+  },
+  {
     "name": "Experience_Profile_Manager",
     "type": "PermissionSet",
     "lastModified": "2026-04-10T09:08:12.000+0000",
     "modifiedBy": "OrgFarm EPIC"
-  },
-  {
-    "name": "devedapp__DeveloperEditionUtils",
-    "type": "ApexClass",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
   },
   {
     "name": "devedapp__PostInstallScript",
@@ -222,439 +216,13 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "AppointmentCategory",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AccountContactRole",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UnstructuredStorageSpaceLayer",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MLModel",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WaitlistParticipant",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShippingCarrierMethod",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShipmentItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PromotionSegmentSalesStore",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataKnowledgeSrcFileRef",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Refund",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Incident",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataLakeObjectInstance",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataModelRelationConstraint",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShippingRateArea",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShippingCarrier",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Promotion",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CommSubscriptionChannelType",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AiGroundingFileRef",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Payment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Opportunity",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentCreditTransaction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceTerritoryMember",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceResourceSkill",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProductAttributeSetProduct",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactCleanInfo",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentAuthorization",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AiEvalTestCaseResult",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssetAction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MLModelFactor",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PricebookEntry",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AiJobRun",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentCreditLinePayment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ResourcePreference",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Lead",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SkillRequirement",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ApprovalWorkItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebStoreCatalog",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Problem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CreditMemoLine",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OpportunityContactRole",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "QuickText",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactPointAddress",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AppointmentTopicTimeSlot",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "RefundLinePayment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FeedItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AppointmentInvitation",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "IncidentRelatedItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Entitlement",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MarketSegmentField",
-    "type": "CustomObject",
+    "name": "devedapp__DeveloperEditionUtils",
+    "type": "ApexClass",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
     "name": "DataQueryWorkspace",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssignedResource",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CampaignMember",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProblemRelatedItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "VoiceCall",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AIWorksheet",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MktCalculatedInsight",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ActvTgtPlatformFieldValue",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContentDocument",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebCartAdjustmentGroup",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShiftEngagementChannel",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DandBCompany",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceTerritoryWorkType",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ExtDataShare",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataQueryWorkspaceTab",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ConversationApiLog",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AIWorksheetColRelation",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "LegalEntity",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CardPaymentMethod",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "BusinessBrand",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AiEvalPromptTestCaseRslt",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UserProvisioningRequest",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkPlanTemplate",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ConversationEntryCopy",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -666,247 +234,19 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "PaymentMethod",
+    "name": "CartTax",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "WaitlistWorkType",
+    "name": "AIWorksheet",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Image",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PrivacyRTBFRequest",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AIWorksheetRow",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "User",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PromotionQualifier",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceContract",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataKnowledgeSpace",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ConvEntryRelatedRecordCopy",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProductCategory",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PromotionLineItemRule",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentLineInvoice",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AuthorizationForm",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DuplicateRecordItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Customer",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartCheckoutSession",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "VoiceMailGreeting2Rep",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OrgMetricScanResult",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AiEvalTestCaseCritRslt",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AiGroundingWebRef",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OpportunityCompetitor",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UserPrioritizedRecord",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AiEvalCopilotTestCaseRslt",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MacroInstruction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PromotionTier",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AppointmentScheduleLog",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactPointTypeConsent",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AppointmentInvitee",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Individual",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "StandardShippingRate",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CaseContactRole",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CommSubscription",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebCartCredit",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UserExternalCredential",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataCommunicationCap",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebCart",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WaitlistServiceResource",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ReturnOrder",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "RecordAction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Macro",
+    "name": "ServiceTerritoryWorkType",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -918,181 +258,19 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "QuickTextUsage",
+    "name": "SecurityHealthCheckResult",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "LocationShippingCarrierMethod",
+    "name": "ContactPointTypeConsent",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "ProductAttribute",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ExternalEventMapping",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataPackageKit",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ChatterActivity",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ApprovalSubmissionDetail",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkOrder",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataKitDeploymentLog",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Activity",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkStepTemplate",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Contract",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartDeliveryGroup",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "EntitlementContact",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "TimeSlot",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactRequest",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OpportunityLineItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Recommendation",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PartyConsent",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContractContactRole",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OpportunityRelatedDeleteLog",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ScorecardMetric",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SocialPersona",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactPointPhone",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MacroUsage",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CommSubscriptionTiming",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataCommCapActvTarget",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AITestSuiteRunJob",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceResource",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Waitlist",
+    "name": "DataLineageNodeDefSyncLog",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -1104,217 +282,7 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "CaseMilestone",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AnalyticsUserAttrFuncTkn",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AIWorksheetColumn",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MarketSegment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceAppointmentAttendee",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AuthorizationFormDataUse",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FlowOrchestrationStepInstance",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Shift",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Campaign",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ResourceAbsence",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentCredit",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssetRelationship",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PrivacyJobSession",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SecurityHealthCheckResult",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PromptAction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkPlanTemplateEntry",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContractLineItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartValidationOutput",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ExpressionFilterCriteria",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "GisPrvdCnctrJobObjRun",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShippingConfigurationSet",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Asset",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MessagingSession",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MLModelFactorComponent",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
     "name": "AccountCleanInfo",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ConversationApiLogObjSum",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Site",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AiGroundingSourceStage",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MacroAction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DevopsEnvironment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Pricebook2",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Order",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "InventoryReservation",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataActionTarget",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AuthorizationFormText",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UserDevopsPreference",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -1326,451 +294,31 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "PromotionTarget",
+    "name": "Incident",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Address",
+    "name": "WebStoreCatalog",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "ReturnOrderItemAdjustment",
+    "name": "UserPrioritizedRecord",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "AssistantProgress",
+    "name": "ExpressionFilterCriteria",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "VoiceMailGreeting2",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartDeliveryGroupMethod",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Account",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkTypeGroup",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "LeadCleanInfo",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ConsumptionSchedule",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FinanceTransaction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ExtDataShareTarget",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkType",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "EngagementChannelType",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PromotionMarketSegment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CollaborationGroupMember",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkPlan",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ApprovalSubmission",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PromotionSegment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkflowSLAAction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebStore",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContentVersion",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "StreamActivityAccess",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MktMLModelPartitionRun",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "InvoiceLine",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DigitalWallet",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "InventoryItemReservation",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssetActionSource",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataActionJobSummary",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentAuthAdjustment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProcessException",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CaseRelatedIssue",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CouponCodeRedemption",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssociatedLocation",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MessagingEndUser",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ChangeRequestRelatedItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataUsePurpose",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FulfillmentOrderItemTax",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Product2",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UserServicePresence",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProblemIncident",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceAppointment",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ActivationTargetPlatform",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OrderItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CreditMemo",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ReturnOrderLineItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AlternativePaymentMethod",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ChangeRequest",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "EntityMilestone",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkOrderLineItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "EngagementChannelWorkType",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SlackChannelRelatedRecord",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Solution",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataAction",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebCartAdjustmentBasis",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "IdentityResolution",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Task",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartTax",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkTypeGroupMember",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataSourceBundle",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProductConsumptionSchedule",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkStep",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OrgMetricScanSummary",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataLineageDefSyncLog",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SalesStore",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CommSubscriptionConsent",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProductCategoryProduct",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentGroup",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Contact",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShiftWorkTopic",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MktDataTransform",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssetStatePeriod",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ReportAnomalyEventStore",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebStoreInventorySource",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Coupon",
+    "name": "PaymentCreditLinePayment",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -1782,55 +330,43 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "AIWorksheetCell",
+    "name": "ProblemRelatedItem",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "BuyerGroup",
+    "name": "WebStoreInventorySource",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "DevopsActivityLog",
+    "name": "AiEvalTestCaseCritRslt",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "FulfillmentOrderItemAdjustment",
+    "name": "CartItem",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Case",
+    "name": "SlackChannelRelatedRecord",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "ConsumptionRate",
+    "name": "AuthorizationFormDataUse",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "TenantPvsnProdtLicMap",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AgentWork",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DuplicateRecordSet",
+    "name": "Asset",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -1842,157 +378,31 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Scorecard",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebStoreBuyerGroup",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ActivationTarget",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Topic",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "MktMLPredictionJob",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataGraph",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OperatingHoursHoliday",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AIWorkbook",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AuthorizationFormConsent",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Invoice",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OperatingHours",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FlowOrchestrationStageInstance",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "RecordMergeHistory",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ReturnOrderItemTax",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "EmailMessage",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Idea",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PartnerRole",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CreditMemoInvApplication",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FlowOrchestrationWorkItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
     "name": "AITestSuiteWorkbookAssoc",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "CartItemPriceAdjustment",
+    "name": "CartDeliveryGroup",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "PaymentGateway",
+    "name": "MessagingEndUser",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "ProductCatalog",
+    "name": "WebCartCredit",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "ExpressionFilter",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DevopsRequestInfo",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Event",
+    "name": "ChangeRequestRelatedIssue",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -2004,19 +414,751 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "UserCapabilityPreference",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Seller",
+    "name": "DataModelRelationConstraint",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
     "name": "ShippingRateGroup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkTypeGroup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "TimeSlot",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceResource",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "User",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AppointmentScheduleLog",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Product2",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiJobRun",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DeliveryEstimationSetup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Pricebook2",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromotionSegmentBuyerGroup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContractContactRole",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OpportunityCompetitor",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AuthorizationFormText",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromotionTier",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Recommendation",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OpportunityRelatedDeleteLog",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UnstructuredStorageSpaceLayer",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Coupon",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiEvalPromptTestCaseRslt",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProcessException",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContactRequest",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MessagingSession",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssignedResource",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AppointmentInvitee",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ChatterActivity",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MLModel",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Entitlement",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CaseRelatedIssue",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Scorecard",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DandBCompany",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceTerritory",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromotionQualifier",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WebCartAdjustmentBasis",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PendingServiceRouting",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PrivacyJobSession",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "InventoryReservation",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Order",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProductAttribute",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssetActionSource",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataCommCapActvTarget",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WaitlistServiceResource",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CommSubscriptionTiming",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "SalesStore",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContentVersion",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FeedItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContactPointEmail",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromotionLineItemRule",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Opportunity",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataKitDeploymentLog",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ApprovalWorkItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DevopsRequestInfo",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MktMLPredictionJob",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProductCategory",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataAction",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LegalEntity",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReturnOrderLineItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MktMLModel",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentCredit",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ActivationTargetPlatform",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UserLocalWebServerIdentity",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataPackageKit",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataActionJobSummary",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiEvalCopilotTestCaseRslt",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CardPaymentMethod",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ConversationEntryCopy",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContactPointPhone",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "QuickText",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "EntityMilestone",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "StreamActivityAccess",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShippingCarrierMethod",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CommSubscription",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FinanceTransaction",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartValidationOutput",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OrgMetricScanResult",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LocationGroup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Problem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OperatingHours",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PartnerRole",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkStepTemplate",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AIWorksheetColumn",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PartyConsent",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FlowOrchestrationStageInstance",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MarketSegmentField",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UserDevopsPreference",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PricebookEntry",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ExternalEventMapping",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "StandardShippingRate",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MacroUsage",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShippingCarrier",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AIWorksheetRow",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromotionSegmentSalesStore",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ChangeRequest",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentCreditTransaction",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FlowOrchestrationWorkItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "InvoiceLine",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "VoiceMailGreeting2Rep",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Customer",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkflowSLAAction",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Image",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "GisPrvdCnctrJobObjRun",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProductAttributeSetProduct",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceAppointment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromptAction",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AuthorizationFormConsent",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ScorecardMetric",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FlowOrchestrationStepInstance",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "BusinessBrand",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "RefundLinePayment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiEvalTestCaseResult",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CampaignMember",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShippingRateArea",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AppointmentCategory",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "SocialPersona",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DuplicateRecordItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentMethod",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProblemIncident",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Shipment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "TenantPvsnProdtLicMap",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ActvTgtPlatformFieldValue",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataKnowledgeSpace",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkPlan",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Contact",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CreditMemo",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -2034,19 +1176,25 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "TopicAssignment",
+    "name": "ScorecardAssociation",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "FulfillmentOrder",
+    "name": "MacroAction",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "PromptError",
+    "name": "ShipmentItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataKnowledgeSrcFileRef",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -2058,109 +1206,31 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "DeliveryEstimationSetup",
+    "name": "Idea",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "FlowOrchestrationVersion",
+    "name": "AccountContactRole",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "DataUseLegalBasis",
+    "name": "Waitlist",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "AiEvalPrmptRagTestCsRslt",
+    "name": "DevopsEnvironment",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "TableauHostMapping",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactPointEmail",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataMaskCustomValueLibrary",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceTerritory",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataStream",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FulfillmentOrderLineItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartItem",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataLineageNodeDefSyncLog",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UnstructuredStorageSpace",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ChangeRequestRelatedIssue",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PendingServiceRouting",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "LocationGroup",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FinanceBalanceSnapshot",
-    "type": "CustomObject",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ScorecardAssociation",
+    "name": "ConsumptionRate",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -2172,19 +1242,205 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "PromotionSegmentBuyerGroup",
+    "name": "DataCommunicationCap",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "MktMLModel",
+    "name": "LeadCleanInfo",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "AiEvaluation",
+    "name": "Topic",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AppointmentInvitation",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContactCleanInfo",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OrgMetricScanSummary",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AlternativePaymentMethod",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UserServicePresence",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AIWorksheetColRelation",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ConvEntryRelatedRecordCopy",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "IncidentRelatedItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Seller",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CaseMilestone",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkStep",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OpportunityLineItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "BuyerGroup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "InventoryItemReservation",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ConversationApiLogObjSum",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MLModelFactor",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ApprovalSubmission",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FulfillmentOrderLineItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkType",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataStream",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromptError",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataLineageDefSyncLog",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LocationShippingCarrierMethod",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UserCapabilityPreference",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CreditMemoInvApplication",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CaseContactRole",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WaitlistWorkType",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FulfillmentOrderItemTax",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MacroInstruction",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataGraph",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MarketSegment",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -2196,13 +1452,529 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Shipment",
+    "name": "Address",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "UserLocalWebServerIdentity",
+    "name": "ShiftWorkTopic",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartItemPriceAdjustment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContractLineItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FulfillmentOrderItemAdjustment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CouponCodeRedemption",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UnstructuredStorageSpace",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Individual",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FulfillmentOrder",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Account",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProductCatalog",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiGroundingWebRef",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "SkillRequirement",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Refund",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MktMLModelPartitionRun",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssociatedLocation",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AuthorizationForm",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "QuickTextUsage",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Activity",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Lead",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "TopicAssignment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "TableauHostMapping",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Macro",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UserExternalCredential",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentAuthAdjustment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Event",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ExtDataShare",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AnalyticsUserAttrFuncTkn",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataMaskCustomValueLibrary",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AIWorkbook",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DigitalWallet",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Case",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ExtDataShareTarget",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceTerritoryMember",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UserProvisioningRequest",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WebCart",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Shift",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReturnOrderItemAdjustment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssetAction",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "RecordAction",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WebCartAdjustmentGroup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CommSubscriptionChannelType",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FlowOrchestrationVersion",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CreditMemoLine",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShippingConfigurationSet",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Payment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReturnOrder",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartDeliveryGroupMethod",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiEvaluation",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Promotion",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "RecordMergeHistory",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentLineInvoice",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CommSubscriptionConsent",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContentDocument",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ActivationTarget",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentGroup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataQueryWorkspaceTab",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataActionTarget",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssetStatePeriod",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ExpressionFilter",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReturnOrderItemTax",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkOrderLineItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ResourceAbsence",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AIWorksheetCell",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AITestSuiteRunJob",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MLModelFactorComponent",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataLakeObjectInstance",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "EngagementChannelWorkType",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Site",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShiftEngagementChannel",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContactPointAddress",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentAuthorization",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataUseLegalBasis",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiGroundingFileRef",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OpportunityContactRole",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssistantProgress",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Task",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentGateway",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromotionSegment",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AppointmentTopicTimeSlot",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssetRelationship",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DuplicateRecordSet",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PrivacyRTBFRequest",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataUsePurpose",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "EngagementChannelType",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "EntitlementContact",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Solution",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ConversationApiLog",
     "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -2214,37 +1986,235 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "WorkType-Work Type Layout",
-    "type": "Layout",
+    "name": "PromotionMarketSegment",
+    "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "UserAlt-User Profile Layout",
-    "type": "Layout",
+    "name": "EmailMessage",
+    "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "WebCart-Cart Layout",
-    "type": "Layout",
+    "name": "MktDataTransform",
+    "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "CreditMemoLine-Credit Memo Line Layout",
-    "type": "Layout",
+    "name": "VoiceCall",
+    "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "AssetStatePeriod-Asset State Period Layout",
-    "type": "Layout",
+    "name": "WebStore",
+    "type": "CustomObject",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Customer-Customer Layout",
+    "name": "ServiceContract",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "MktCalculatedInsight",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ChangeRequestRelatedItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FinanceBalanceSnapshot",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartCheckoutSession",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkTypeGroupMember",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkOrder",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceAppointmentAttendee",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ApprovalSubmissionDetail",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Invoice",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ResourcePreference",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ConsumptionSchedule",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Contract",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiGroundingSourceStage",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "IdentityResolution",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OrderItem",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AiEvalPrmptRagTestCsRslt",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OperatingHoursHoliday",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataSourceBundle",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProductCategoryProduct",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkPlanTemplateEntry",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WaitlistParticipant",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "VoiceMailGreeting2",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceResourceSkill",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CollaborationGroupMember",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AgentWork",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Campaign",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WebStoreBuyerGroup",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PromotionTarget",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReportAnomalyEventStore",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProductConsumptionSchedule",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkPlanTemplate",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DevopsActivityLog",
+    "type": "CustomObject",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkStep-Work Step Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -2256,727 +2226,7 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "ResourcePreference-Resource Preference Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Product2-Product Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DataUsePurpose-Data Use Purpose Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Account-Account %28Support%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SocialPersona-Social Persona Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebCartAdjustmentBasis-Cart Adjustment Basis Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "EntityMilestone-Object Milestone Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Asset-Asset Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "LoginAnomalyEventStore-Login Anomaly Event Store Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Shift-Shift Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UserProvAccount-User Provisioning Account Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartCheckoutSession-Cart Checkout Session Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkOrder-Work Order Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Order-Order Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkTypeGroupMember-Work Type Group Member Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentGateway-Payment Gateway Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Lead-Lead Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "RefundLinePayment-Refund Line Payment Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CampaignMember-Campaign Member Page Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Event-Event Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DuplicateRecordSet-Duplicate Record Set Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssetRelationship-Asset Relationship Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "LocationGroup-Location Group Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PricebookEntry-Price Book Entry Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Opportunity-Opportunity Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FulfillmentOrderLineItem-Fulfillment Order Product Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Contact-Contact %28Support%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CardPaymentMethod-Card Payment Method Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkTypeGroup-Work Type Group Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "User-User Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkPlanTemplateEntry-Work Plan Template Entry Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentAuthorization-Payment Authorization Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ReportAnomalyEventStore-Report Anomaly Event Store Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Location-Location Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FinanceTransaction-Finance Transaction Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Lead-Lead %28Sales%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Idea-Idea Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CreditMemo-Credit Memo Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Entitlement-Entitlement Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProductConsumptionSchedule-Product Consumption Schedule Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartValidationOutput-Cart Validation Output Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SkillRequirement-Skill Requirement Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContentVersion-Content Version Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AuthorizationFormDataUse-Authorization Form Data Use Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Solution-Solution Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Campaign-Campaign Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "LegalEntity-Legal Entity Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ProcessException-Process Exception Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Opportunity-Opportunity %28Support%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Account-Account Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShippingRateGroup-Shipping Rate Group Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OrderItem-Order Product Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Seller-Seller Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ReturnOrder-Return Order Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Lead-Lead %28Marketing%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "OpportunityLineItem-Opportunity Product Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Account-Account %28Marketing%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Payment-Payment Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AppointmentInvitation-Appointment Invitation Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "EmailMessage-Email Message Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DandBCompany-D%26B Company Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ThreatDetectionFeedback-Threat Detection Feedback Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Case-Case %28Support%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentAuthAdjustment-Payment Authorization Adjustment Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceResource-Service Resource Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SessionHijackingEventStore-Session Hijacking Event Store Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AuthorizationFormConsent-Authorization Form Consent Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Global-Global Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Macro-Macro Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ConsumptionRate-Consumption Rate Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "EngagementChannelType-Engagement Channel Type Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssociatedLocation-Associated Location Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentGroup-Payment Group Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Contact-Contact %28Marketing%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceResourceSkill-Service Resource Skill Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ReturnOrderItemTax-Return Order Item Tax Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Task-Task Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentGatewayLog-Payment Gateway Log Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ConsumptionSchedule-Consumption Schedule Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactPointPhone-Contact Point Phone Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AuthorizationForm-Authorization Form Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "DigitalWallet-Digital Wallet Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ApiAnomalyEventStore-API Anomaly Event Store Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UserProvisioningLog-User Provisioning Log Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Contract-Contract Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactPointEmail-Contact Point Email Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShippingConfigurationSet-Shipping Configuration Set Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssetAction-Asset Action Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CaseMilestone-Case Milestone Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartItem-Cart Item Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Contact-Contact %28Sales%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UserProvisioningRequest-User Provisioning Request Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebCartAdjustmentGroup-Cart Adjustment Group Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShippingRateArea-Shipping Rate Area Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Opportunity-Opportunity %28Sales%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WorkStep-Work Step Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Scorecard-Scorecard Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Invoice-Invoice Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ResourceAbsence-Resource Absence Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "UniversalAnomalyEventStore-Universal Anomaly Event Store Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CaseClose-Close Case Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Individual-Individual Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "QuickText-Quick Text Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AuthorizationFormText-Authorization Form Text Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartDeliveryGroupMethod-Cart Delivery Group Method Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceAppointment-Service Appointment Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FeedItem-Feed Item Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Opportunity-Opportunity %28Marketing%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "FulfillmentOrder-Fulfillment Order Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Refund-Refund Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartDeliveryGroup-Cart Delivery Group Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CommunityMemberLayout-Community Member Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Contact-Contact Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AssignedResource-Assigned Resource Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ReturnOrderItemAdjustment-Return Order Item Adjustment Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "WebStore-Store Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "BusinessBrand-Business Brand Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CreditMemoInvApplication-Credit Memo Invoice Application Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Case-Case %28Marketing%29 Layout",
+    "name": "AssetStatePeriod-Asset State Period Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -2988,91 +2238,31 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "InvoiceLine-Invoice Line Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ScorecardMetric-Scorecard Metric Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ScorecardAssociation-Scorecard Association Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ContactPointAddress-Contact Point Address Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PaymentLineInvoice-Payment Line Invoice Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Account-Account %28Sales%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ShiftWorkTopic-Shift Work Topic Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "CartTax-Cart Tax Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
     "name": "TimeSlot-Time Slot Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "OperatingHours-Operating Hours Layout",
+    "name": "AuthorizationFormText-Authorization Form Text Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout",
+    "name": "CommunityMemberLayout-Community Member Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "ServiceTerritoryMember-Service Territory Member Layout",
+    "name": "DandBCompany-D%26B Company Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "LiveChatTranscriptWaiting-Chat Transcript %28Waiting%29 Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "AlternativePaymentMethod-Alternative Payment Method Layout",
-    "type": "Layout",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "ServiceTerritory-Service Territory Layout",
+    "name": "ConsumptionRate-Consumption Rate Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -3084,19 +2274,61 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "WorkOrderLineItem-Work Order Line Item Layout",
+    "name": "Asset-Asset Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Pricebook2-Price Book Layout",
+    "name": "GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "StandardShippingRate-Standard Shipping Rate Layout",
+    "name": "Contact-Contact %28Sales%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ResourcePreference-Resource Preference Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Lead-Lead %28Marketing%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkPlanTemplateEntry-Work Plan Template Entry Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Individual-Individual Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Location-Location Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LoginAnomalyEventStore-Login Anomaly Event Store Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -3108,31 +2340,67 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "DataUseLegalBasis-Data Use Legal Basis Layout",
+    "name": "PaymentGatewayLog-Payment Gateway Log Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "FinanceBalanceSnapshot-Finance Balance Snapshot Layout",
+    "name": "Lead-Lead Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "AssetActionSource-Asset Action Source Layout",
+    "name": "Opportunity-Opportunity Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "AsyncOperationLog-Async Operation Log Layout",
+    "name": "CreditMemo-Credit Memo Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "LocationGroupAssignment-Location Group Assignment Layout",
+    "name": "SkillRequirement-Skill Requirement Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartItem-Cart Item Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProductConsumptionSchedule-Product Consumption Schedule Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WebStore-Store Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LocationGroup-Location Group Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CreditMemoLine-Credit Memo Line Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Product2-Product Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -3144,31 +2412,43 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Case-Case %28Sales%29 Layout",
+    "name": "Contract-Contract Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "LiveChatTranscriptActive-Chat Transcript %28In Progress%29 Layout",
+    "name": "CaseMilestone-Case Milestone Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Lead-Lead %28Support%29 Layout",
+    "name": "Opportunity-Opportunity %28Marketing%29 Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "ReturnOrderLineItem-Return Order Line Item Layout",
+    "name": "CardPaymentMethod-Card Payment Method Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
-    "name": "WorkStepTemplate-Work Step Template Layout",
+    "name": "UserAlt-User Profile Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LiveChatTranscriptWaiting-Chat Transcript %28Waiting%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataUseLegalBasis-Data Use Legal Basis Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -3180,7 +2460,493 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "WorkPlanTemplate-Work Plan Template Layout",
+    "name": "UserProvAccount-User Provisioning Account Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkTypeGroup-Work Type Group Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AuthorizationForm-Authorization Form Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Opportunity-Opportunity %28Sales%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Case-Case %28Sales%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Customer-Customer Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OperatingHours-Operating Hours Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceResourceSkill-Service Resource Skill Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Solution-Solution Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DataUsePurpose-Data Use Purpose Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FeedItem-Feed Item Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Payment-Payment Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Contact-Contact %28Marketing%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Contact-Contact %28Support%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ScorecardMetric-Scorecard Metric Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Opportunity-Opportunity %28Support%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssetAction-Asset Action Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssetActionSource-Asset Action Source Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "SocialPersona-Social Persona Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShippingRateGroup-Shipping Rate Group Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Account-Account Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ScorecardAssociation-Scorecard Association Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceAppointment-Service Appointment Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Account-Account %28Support%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Lead-Lead %28Support%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkType-Work Type Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FinanceBalanceSnapshot-Finance Balance Snapshot Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkOrderLineItem-Work Order Line Item Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShiftWorkTopic-Shift Work Topic Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReturnOrder-Return Order Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssignedResource-Assigned Resource Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Refund-Refund Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FulfillmentOrderLineItem-Fulfillment Order Product Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkTypeGroupMember-Work Type Group Member Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WebCart-Cart Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssociatedLocation-Associated Location Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentAuthorization-Payment Authorization Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AuthorizationFormDataUse-Authorization Form Data Use Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceResource-Service Resource Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Case-Case %28Support%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "QuickText-Quick Text Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Macro-Macro Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OrderItem-Order Product Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Global-Global Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UserProvisioningLog-User Provisioning Log Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AssetRelationship-Asset Relationship Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "InvoiceLine-Invoice Line Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CampaignMember-Campaign Member Page Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Case-Case %28Marketing%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShippingConfigurationSet-Shipping Configuration Set Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LiveChatTranscriptActive-Chat Transcript %28In Progress%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContactPointEmail-Contact Point Email Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Campaign-Campaign Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CreditMemoInvApplication-Credit Memo Invoice Application Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AlternativePaymentMethod-Alternative Payment Method Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CaseClose-Close Case Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Scorecard-Scorecard Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "SessionHijackingEventStore-Session Hijacking Event Store Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "EngagementChannelType-Engagement Channel Type Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Account-Account %28Sales%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AuthorizationFormConsent-Authorization Form Consent Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContactPointPhone-Contact Point Phone Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkOrder-Work Order Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartTax-Cart Tax Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartDeliveryGroup-Cart Delivery Group Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceTerritoryMember-Service Territory Member Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ProcessException-Process Exception Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WebCartAdjustmentBasis-Cart Adjustment Basis Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartValidationOutput-Cart Validation Output Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AsyncOperationLog-Async Operation Log Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LegalEntity-Legal Entity Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReportAnomalyEventStore-Report Anomaly Event Store Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WebCartAdjustmentGroup-Cart Adjustment Group Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartDeliveryGroupMethod-Cart Delivery Group Method Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Entitlement-Entitlement Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "EntityMilestone-Object Milestone Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Task-Task Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Account-Account %28Marketing%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReturnOrderItemTax-Return Order Item Tax Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ServiceTerritory-Service Territory Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Event-Event Layout",
     "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -3192,8 +2958,236 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "sfdcInternalInt__sfdc_scrt2",
-    "type": "PermissionSet",
+    "name": "ReturnOrderItemAdjustment-Return Order Item Adjustment Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FinanceTransaction-Finance Transaction Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "AppointmentInvitation-Appointment Invitation Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "LocationGroupAssignment-Location Group Assignment Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentGateway-Payment Gateway Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UserProvisioningRequest-User Provisioning Request Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "FulfillmentOrder-Fulfillment Order Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Contact-Contact Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "RefundLinePayment-Refund Line Payment Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PricebookEntry-Price Book Entry Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Invoice-Invoice Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Seller-Seller Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContentVersion-Content Version Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Order-Order Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "StandardShippingRate-Standard Shipping Rate Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ResourceAbsence-Resource Absence Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "BusinessBrand-Business Brand Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "CartCheckoutSession-Cart Checkout Session Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ConsumptionSchedule-Consumption Schedule Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ContactPointAddress-Contact Point Address Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentGroup-Payment Group Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ThreatDetectionFeedback-Threat Detection Feedback Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DigitalWallet-Digital Wallet Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "UniversalAnomalyEventStore-Universal Anomaly Event Store Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Shift-Shift Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ReturnOrderLineItem-Return Order Line Item Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "User-User Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Idea-Idea Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentAuthAdjustment-Payment Authorization Adjustment Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ApiAnomalyEventStore-API Anomaly Event Store Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Pricebook2-Price Book Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PaymentLineInvoice-Payment Line Invoice Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "EmailMessage-Email Message Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Lead-Lead %28Sales%29 Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkStepTemplate-Work Step Template Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "WorkPlanTemplate-Work Plan Template Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "ShippingRateArea-Shipping Rate Area Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "DuplicateRecordSet-Duplicate Record Set Layout",
+    "type": "Layout",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "OpportunityLineItem-Opportunity Product Layout",
+    "type": "Layout",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
@@ -3204,37 +3198,19 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Custom%3A Marketing Profile",
+    "name": "sfdcInternalInt__sfdc_scrt2",
+    "type": "PermissionSet",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Custom%3A Support Profile",
     "type": "Profile",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
     "name": "ContractManager",
-    "type": "Profile",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Force%2Ecom - Free User",
-    "type": "Profile",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "SolutionManager",
-    "type": "Profile",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "StandardAul",
-    "type": "Profile",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "HighVolumePortal",
     "type": "Profile",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -3252,31 +3228,7 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "Work%2Ecom Only User",
-    "type": "Profile",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "PlatformPortal",
-    "type": "Profile",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
     "name": "Standard",
-    "type": "Profile",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Admin",
-    "type": "Profile",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "Custom%3A Support Profile",
     "type": "Profile",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -3288,31 +3240,55 @@
     "modifiedBy": "Unknown"
   },
   {
-    "name": "devedapp__sharedStyles",
-    "type": "LightningComponentBundle",
+    "name": "SolutionManager",
+    "type": "Profile",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "PlatformPortal",
+    "type": "Profile",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Work%2Ecom Only User",
+    "type": "Profile",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Custom%3A Marketing Profile",
+    "type": "Profile",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "StandardAul",
+    "type": "Profile",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Force%2Ecom - Free User",
+    "type": "Profile",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "HighVolumePortal",
+    "type": "Profile",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "Admin",
+    "type": "Profile",
     "lastModified": null,
     "modifiedBy": "Unknown"
   },
   {
     "name": "devedapp__utils",
-    "type": "LightningComponentBundle",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "devedapp__welcome",
-    "type": "LightningComponentBundle",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "devedapp__getStartedMuleSoft",
-    "type": "LightningComponentBundle",
-    "lastModified": null,
-    "modifiedBy": "Unknown"
-  },
-  {
-    "name": "devedapp__getStartedDataCloud",
     "type": "LightningComponentBundle",
     "lastModified": null,
     "modifiedBy": "Unknown"
@@ -3324,7 +3300,31 @@
     "modifiedBy": "Unknown"
   },
   {
+    "name": "devedapp__getStartedDataCloud",
+    "type": "LightningComponentBundle",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "devedapp__welcome",
+    "type": "LightningComponentBundle",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "devedapp__sharedStyles",
+    "type": "LightningComponentBundle",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
     "name": "devedapp__getStartedSfdx",
+    "type": "LightningComponentBundle",
+    "lastModified": null,
+    "modifiedBy": "Unknown"
+  },
+  {
+    "name": "devedapp__getStartedMuleSoft",
     "type": "LightningComponentBundle",
     "lastModified": null,
     "modifiedBy": "Unknown"

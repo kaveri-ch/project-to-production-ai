@@ -7,17 +7,17 @@
 <name>ApexClass</name>
 </types>
 <types>
-<members>Analytics Cloud Integration User</members>
-<members>Einstein Agent User</members>
-<members>Cross Org Data Proxy User</members>
-<members>Read Only</members>
 <members>Salesforce API Only System Integrations</members>
-<members>Identity User</members>
-<members>Analytics Cloud Security User</members>
-<members>Minimum Access - API Only Integrations</members>
-<members>Partner App Subscription User</members>
-<members>Minimum Access - Salesforce</members>
 <members>Anypoint Integration</members>
+<members>Cross Org Data Proxy User</members>
+<members>Analytics Cloud Security User</members>
+<members>Analytics Cloud Integration User</members>
+<members>Partner App Subscription User</members>
+<members>Minimum Access - API Only Integrations</members>
+<members>Read Only</members>
+<members>Minimum Access - Salesforce</members>
+<members>Einstein Agent User</members>
+<members>Identity User</members>
 <name>Profile</name>
 </types>
 <version>59.0</version>
