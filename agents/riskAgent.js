@@ -1,6 +1,43 @@
 const jsforce = require("jsforce");
 const { execSync } = require("child_process");
 const axios = require("axios");
+const fs = require("fs");
+const path = require("path");
+
+function writeTempApexFile(className, body) {
+  const dir = path.join(__dirname, "../temp");
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir);
+
+  const filePath = path.join(dir, `${className}.cls`);
+  fs.writeFileSync(filePath, body);
+
+  return filePath;
+}
+
+async function getCoverage(conn, className) {
+  try {
+    const res = await conn.tooling.query(`
+      SELECT ApexClassOrTrigger.Name, NumLinesCovered, NumLinesUncovered
+      FROM ApexCodeCoverageAggregate
+      WHERE ApexClassOrTrigger.Name = '${className}'
+    `);
+
+    if (res.records.length > 0) {
+      const rec = res.records[0];
+      const total = rec.NumLinesCovered + rec.NumLinesUncovered;
+
+      if (total === 0) return 0;
+
+      return Math.round((rec.NumLinesCovered / total) * 100);
+    }
+
+    return null;
+
+  } catch {
+    return null;
+  }
+}
+
 
 /**
  * Naming Suggestion Helper
@@ -31,7 +68,18 @@ function parseInput(inputList) {
     const lower = item.toLowerCase();
 
     if (lower.endsWith(".cls")) {
-      return { type: "ApexClass", name: item.replace(".cls", "") };
+      let name = item.replace(".cls", "");
+
+      // 🔥 Detect TEST CLASS
+      if (name.toLowerCase().endsWith("test")) {
+        return {
+          type: "ApexTestClass",
+          name,
+          parent: name.replace(/test$/i, "")
+        };
+      }
+
+      return { type: "ApexClass", name };
     }
 
     if (lower.endsWith(".flow-meta.xml")) {
@@ -158,6 +206,60 @@ async function run(inputList) {
     // -------------------------------
     for (let item of parsed) {
 
+      if (item.type === "ApexTestClass") {
+
+        findings.push(`✅ ${item.name}: Test class identified`);
+
+        // 🔥 Check @isTest annotation
+        try {
+          const bodyRes = await conn.tooling.query(`
+            SELECT Body FROM ApexClass WHERE Name = '${item.name}'
+          `);
+
+          if (bodyRes.records.length > 0) {
+            const body = bodyRes.records[0].Body || "";
+
+            if (!body.includes("@isTest")) {
+              riskScore += 15;
+              findings.push(`⚠️ ${item.name}: Missing @isTest annotation`);
+              explanations.push(`Test class should use @isTest for proper execution.`);
+            }
+          }
+        } catch {}
+
+        // 🔥 Check parent class
+        const res = await conn.tooling.query(`
+          SELECT Name FROM ApexClass WHERE Name = '${item.parent}'
+        `);
+
+        if (res.records.length === 0) {
+          riskScore += 20;
+          findings.push(`⚠️ ${item.name}: Parent class not found (${item.parent})`);
+        } else {
+          findings.push(`🔗 Covers class: ${item.parent}`);
+        }
+
+        // 🔥 COVERAGE CALCULATION
+        const coverage = await getCoverage(conn, item.parent);
+
+        if (coverage !== null) {
+          findings.push(`📊 Coverage for ${item.parent}: ${coverage}%`);
+
+          if (coverage < 75) {
+            riskScore += 25;
+            findings.push(`❌ Low coverage: ${coverage}% (minimum 75% required)`);
+            explanations.push(`Increase test coverage before deployment.`);
+          } else {
+            findings.push(`✅ Coverage meets requirement`);
+          }
+        } else {
+          findings.push(`ℹ️ Coverage data not available`);
+        }
+
+        continue;
+      }
+
+
       // =============================
       // APEX ANALYSIS
       // =============================
@@ -180,12 +282,17 @@ async function run(inputList) {
           }
 
           // NAMING
-          if (!item.name.endsWith("Controller") && !item.name.endsWith("Service")) {
-            const suggestion = suggestApexName(item.name);
-            riskScore += 10;
-            findings.push(`⚠️ ${item.name}: Naming standard not followed`);
-            findings.push(`💡 Suggested Name: ${suggestion}`);
-            explanations.push("Follow naming conventions for maintainability.");
+          if (item.type === "ApexClass") {
+            if (
+              !item.name.endsWith("Controller") &&
+              !item.name.endsWith("Service") &&
+              !item.name.endsWith("Util")
+            ) {
+              const suggestion = suggestApexName(item.name);
+              riskScore += 10;
+              findings.push(`⚠️ ${item.name}: Naming standard not followed`);
+              findings.push(`💡 Suggested Name: ${suggestion}`);
+            }
           }
 
           // TEST CLASS
@@ -201,6 +308,19 @@ async function run(inputList) {
           } else {
             findings.push(`✅ ${item.name}: Test class found`);
           }
+
+          // 🔥 COVERAGE CHECK FOR MAIN CLASS
+        const coverage = await getCoverage(conn, item.name);
+
+        if (coverage !== null) {
+          findings.push(`📊 Coverage for ${item.name}: ${coverage}%`);
+
+          if (coverage < 75) {
+            riskScore += 25;
+            findings.push(`❌ Low coverage: ${coverage}%`);
+            explanations.push(`Class does not meet minimum coverage.`);
+          }
+        }
 
           // DEPENDENCY CHECK
           try {
@@ -223,6 +343,43 @@ async function run(inputList) {
           riskScore += 10;
           findings.push(`ℹ️ ${item.name}: Review bulkification & limits`);
         }
+
+        const bodyRes = await conn.tooling.query(`
+        SELECT Body FROM ApexClass WHERE Name = '${item.name}'
+      `);
+
+      if (bodyRes.records.length > 0) {
+        const body = bodyRes.records[0].Body;
+
+        const filePath = writeTempApexFile(item.name, body);
+        let pmdIssues = 0;
+
+        try {
+          const pmdOutput = execSync(
+            `sf scanner run --target "${filePath}"`,
+            { encoding: "utf-8" }
+          );
+
+          const match = pmdOutput.match(/found (\d+) violation/);
+
+          if (match) pmdIssues = parseInt(match[1]);
+
+          if (pmdIssues > 0) {
+            riskScore += 20;
+
+            findings.push(`❌ ${item.name}: PMD Issues (${pmdIssues})`);
+            findings.push("⚠️ Missing ApexDoc comments");
+            findings.push("⚠️ CRUD/FLS validation missing");
+            findings.push("⚠️ Unused variables detected");
+
+            explanations.push(`Code quality issues detected in ${item.name}`);
+          }
+
+        } catch (e) {
+          findings.push(`ℹ️ PMD scan failed for ${item.name}`);
+        }
+      }
+
       }
 
       // =============================

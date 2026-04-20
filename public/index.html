@@ -857,7 +857,6 @@ function generateSelected() {
 }
 
 function generateLast5Days() {
-  document.getElementById("output").innerHTML = "⏳ Generating last 5 days package...";
 
   fetch('/generate-last-5-days')
     .then(res => res.blob())
